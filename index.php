@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
 
     <title>EMC</title>
@@ -22,7 +22,7 @@
         <div class="3dpc">
             <model-viewer
             id="3dpc"
-            src="img/pc_gamer_animation.glb"
+            src="assets/img/pc_gamer_animation.glb"
             alt="modelo pc"
             camera-controls
             auto-rotate
