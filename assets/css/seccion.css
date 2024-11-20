@@ -1,0 +1,7 @@
+body {
+    color: white;
+    font-family: 'Roboto';
+    background: radial-gradient(ellipse 500px 700px at 70%, #2B045A, black);
+    /*background-image: radial-gradient(circle at 60%, #2B045A, black);*/
+    
+  }
