@@ -36,8 +36,10 @@
                 Medida
             </h1>
             <h4>Diseñamos y ensamblamos tu pc ideal para ti</h4>
+            <a href="php/registro.php">
+                <button>Ensamblar mi PC ahora</button>
+            </a>
             
-            <button><a href="php/registro.php">Ensamblar mi PC ahora</a></button>
 
         </div>
     </section>
