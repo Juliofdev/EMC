@@ -41,7 +41,6 @@ model-viewer{
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    cursor: pointer;
 }
 h1{
     font-size: 76px;
@@ -55,4 +54,5 @@ button{
     background-color:#00C194;
     border: none;
     border-radius: 15px;
+    cursor: pointer;
 }
