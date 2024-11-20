@@ -41,6 +41,6 @@
         </div>
     </section>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
-    <script src="js/index.js"></script>
+    
 </body>
 </html>
