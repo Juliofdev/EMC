@@ -47,7 +47,7 @@ body {
     background-color: #00C194;
     border-radius: 15px;
   }
-  .nav .nav_register{
+  .nav .nav_login{
     background-color: #026C54;
     width: 60px;
     height: 85px;
@@ -65,8 +65,6 @@ body {
     height: 40px;
   }
 
-  
-
 
   input{
     border-radius: 20px;
@@ -78,15 +76,15 @@ body {
     height: 30px;
   }
 
-  .form_acuerdos{
+  .form_recordar{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
+    text-align: center;
     font-size: 15px;
     
   }
-  .form_acuerdos input{
-    margin-bottom: 5px;
+  .form_recordar input{
     width: 20px;
     height: 20px;
     
@@ -107,6 +105,20 @@ body {
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    margin-bottom: 1px;
+    text-decoration: none;
   }
 
-  
+  .form_boton{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+  .form_boton .rec{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #858585;
+  }
