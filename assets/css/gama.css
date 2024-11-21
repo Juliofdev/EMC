@@ -53,7 +53,7 @@ body {
   }
 
   h1{
-    font-size: 60px;
+    font-size: 50px;
     margin-top: 0;
   }
 
@@ -62,27 +62,31 @@ body {
     display: flex;
     text-align: center;
     align-items: center;
-    
     flex-direction: column;
   }
 
   .form img{
-    width: 300px;
-    height: 300px;
+    width: 160px;
+    height: 180px;
     background-color: aliceblue;
     border-radius: 10px;
     cursor: pointer;
+    border: #00C194;
   }
 
 .logos{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 
   label{
     position: relative;
     display: flex;
     text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
   }
 
   label input{
@@ -107,12 +111,14 @@ body {
     font-weight: bold;
   }
 
-  label input:checked ~ img{
+  label input:checked ~ span{
     background-color: #026C54;
+    border: #026C54;
   }
 
-  label input:hover ~ img{
+  label input:hover ~ span{
     background-color: #026C54;
+    border: #026C54;
   }
 
   footer{
