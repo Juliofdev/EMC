@@ -38,11 +38,11 @@
                 
             <div class="form_boton">
                 <button class="boton">
-                    <a href="recuperar_clave.html">
+                    <a href="recuperar_clave.php">
                         Recuperar Cuenta
                     </a>
                 </button>
-                <a href="login.html" class="rec">Iniciar Sesion</a>
+                <a href="login.php" class="rec">Iniciar Sesion</a>
             </div>
         </form>
     </div>

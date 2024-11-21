@@ -13,7 +13,7 @@
         <div class="nav">
             <div>
                 <button class="nav_login">
-                    <a href="login.html">
+                    <a href="login.php">
                         <img src="../assets/img/login.svg" alt="">
                     </a>
                 </button>
@@ -74,7 +74,7 @@
                 
             <div class="form__boton">
                 <button class="boton">
-                    <a href="login.html">
+                    <a href="login.php">
                         Registrame
                     </a>
                 </button>

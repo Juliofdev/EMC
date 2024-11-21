@@ -1,0 +1,136 @@
+
+
+body {
+    color: white;
+    font-family: 'Roboto';
+    background: radial-gradient(ellipse 500px 700px at 70%, #2B045A, black);
+    /*background-image: radial-gradient(circle at 60%, #2B045A, black);*/
+    
+  }
+
+  body header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+  }
+
+  a{
+    text-decoration:none;
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+  .back img{
+    transform: scaleX(-1);
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+  }
+
+  .user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 10px;
+  }
+  .user img{
+    width: 40px;
+    height: 40px;
+  }
+  .user a{
+    margin-left: 10px;
+    color: #858585;
+    font-size: 18px;
+  }
+
+  h1{
+    font-size: 60px;
+    margin-top: 0;
+  }
+
+  .form{
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+    flex-direction: column;
+  }
+
+  .form img{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+  }
+
+.logos{
+    display: flex;
+    
+}
+
+  label{
+    position: relative;
+    display: flex;
+    text-align: center;
+  }
+
+  label input{
+    appearance: none;
+  }
+
+  label span{
+    position: absolute;
+    width: 120px;
+    height: 45px;
+    background-color: #00C194;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  label p{
+    position: relative;
+    display: flex;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+  }
+
+  label input:checked ~ img{
+    background-color: #026C54;
+  }
+
+  label input:hover ~ img{
+    background-color: #026C54;
+  }
+
+  footer{
+    display: flex;
+    justify-content: center;
+  }
+
+  footer button{
+    font-weight:bold;
+    margin-top: 25px;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+    background-color:#00C194;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+
+  footer button a{
+    color: black;
+  }

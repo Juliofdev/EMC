@@ -19,7 +19,10 @@
             </div>
             <div>
                 <button class="nav_register">
-                    <img src="../assets/img/register.svg" alt="">
+                    <a href="registro.php">
+                        <img src="../assets/img/register.svg" alt="">
+                    </a>
+                    
                 </button>
             </div>
         </div>
@@ -54,7 +57,7 @@
                 <button class="boton">
                     <a href="modo.php">Iniciar Sesion</a>
                 </button>
-                <a href="recuperar_correo.html" class="rec">Recuperar Usuario o clave</a>
+                <a href="recuperar_correo.php" class="rec">Recuperar Usuario o clave</a>
             </div>
         </form>
     </div>

@@ -1,0 +1,84 @@
+body {
+    color: white;
+    font-family: 'Roboto';
+    background: radial-gradient(ellipse 500px 700px at 70%, #2B045A, black);
+    /*background-image: radial-gradient(circle at 60%, #2B045A, black);*/
+    
+  }
+
+  a{
+    text-decoration:none;
+    color: white;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .user{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 70px;
+    margin-top: 30px;
+  }
+  .user img{
+    width: 40px;
+    height: 40px;
+  }
+  .user a{
+    margin-left: 10px;
+    color: #858585;
+    font-size: 18px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .labelimputs{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+  .labelimputs div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 16px;
+  }
+
+  h1{
+    font-size: 60px;
+    margin-top: 20px;
+  }
+
+  button{
+    font-size: 40px;
+    font-weight: bold;
+    width: 490px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    
+  }
+
+  .principiante{
+    background-color: #00C194;
+  }
+  .principiante a{
+    color: black;
+  }
+
+  .experto{
+    background-color: black;
+  }
+  .experto a{
+    color: #00C194;
+  }
